@@ -3,24 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="my-script.js" defer></script>
+    <title>Blended 19-20</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1 class="title">my own work</h1>
+    <header class="page-header">
+      <div class="container">
+        <a href="./index.html">
+          <img src="./images/logo.png" alt="Site Logo" />
+        </a>
+        <div class="box-nav-btnOrder">
+          <nav>
+            <ul class="page-nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Service</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="btn-order">Order Now</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-main-text">
+            <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-descr">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button class="btn-order" type="button">Order Now</button>
+          </div>
+          <div class="salad-box">
+            <img src="./images/salad.png" alt="Salad" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
